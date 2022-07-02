@@ -148,6 +148,35 @@ nav ul#menu{
     color:var(--colorGreen);
 }
 
+.form-group{
+	margin-top:10px;
+}
+
+
+
+/*collegamento social*/
+.sci{
+    position:bottom;
+    top:50%;
+    right: 30px;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display:inline-block;
+    filter:invert(1);
+    margin: 5px 0;
+    transform:scale(0.6);
+}
+
 
 
 @media screen and (min-width:800px){
